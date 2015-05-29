@@ -38,7 +38,8 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-mobile")
     compile("org.springframework.boot:spring-boot-starter-security")
     compile("org.springframework.boot:spring-boot-starter-web")
-    testCompile("org.springframework.boot:spring-boot-starter-test") 
+    compile("org.projectlombok:lombok:1.16.4")
+    testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 
 
